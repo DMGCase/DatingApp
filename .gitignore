@@ -458,3 +458,10 @@ API/datingapp.db
 
 # SqLite db
 *.db
+API/API.csproj
+client/package-lock.json
+client/package.json
+client/package-lock.json
+client/src/polyfills.ts
+client/src/styles.scss
+client/src/app/app.module.ts
