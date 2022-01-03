@@ -48,7 +48,7 @@ namespace API.Controllers
 
             if(await _userRepository.SaveAllAsync()) return Ok();
 
-            return BadRequest("FAiled to like user");
+            return BadRequest("Failed to like user");
         }
 
         [HttpGet]
